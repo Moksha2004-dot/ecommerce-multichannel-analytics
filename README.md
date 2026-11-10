@@ -52,6 +52,10 @@ The database also includes three supporting tables:
 
 These tables are connected through relationships that help organize the data and support SQL analysis.
 
+### Database Star Schema
+
+![Database Star Schema](Screenshots/01_database_star_schema.png)
+
 ## Data Cleaning and ETL
 
 We used an ETL (Extract, Transform, Load) process to prepare the data.
@@ -66,6 +70,10 @@ The process included:
 
 For this project, profit was calculated using an assumed 30% margin.
 
+### ETL Process
+
+![ETL Process](Screenshots/02_etl_process.png)
+
 ## SQL Analysis
 
 We wrote SQL queries to answer important business questions, including:
@@ -76,6 +84,10 @@ We wrote SQL queries to answer important business questions, including:
 - Which partners contribute the most to sales performance?
 
 We also used indexes and a pre-aggregated summary table to improve query performance.
+
+### SQL Queries and Results
+
+![SQL Analysis](Screenshots/03_sql_analysis.png)
 
 ## Power BI Dashboard
 
@@ -91,6 +103,10 @@ The dashboard includes:
 - Quarterly sales trends
 
 Users can filter the dashboard by year, quarter, sales channel, and product category.
+
+### Power BI Dashboard Visualization
+
+![Power BI Dashboard](Screenshots/05_power_bi_dashboard.png)
 
 ## Key Findings
 
@@ -112,6 +128,10 @@ Monthly sales and profit showed fluctuations, highlighting the importance of tra
 
 Some partners contributed significantly more profit than others, showing opportunities to improve partner relationships and marketing strategies.
 
+### Key Findings Summary
+
+![Key Findings](Screenshots/06_key_findings.png)
+
 ## Performance Optimization and Security
 
 We improved database query performance using indexes and pre-aggregated summaries.
@@ -120,6 +140,10 @@ We also implemented different database roles to control access, including analys
 
 This helped demonstrate how database security and performance optimization support business reporting.
 
+### Performance Optimization
+
+![Performance Optimization](Screenshots/04_performance_optimization.png)
+
 ## What I Learned
 
 This project helped me understand how databases and business intelligence tools work together.
@@ -127,10 +151,6 @@ This project helped me understand how databases and business intelligence tools 
 I gained practical experience in database design, SQL analysis, ETL processes, and interpreting business performance.
 
 It also helped me understand how organized data can support better business decisions.
-
-## Project Type
-
-Academic Group Project — Database Systems
 
 ## Author
 
